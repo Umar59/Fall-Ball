@@ -1,0 +1,101 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'ru' Physical Memory: 8110 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Unity/project/Fall
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54423
+Successfully changed project path to: D:/Unity/project/Fall
+D:/Unity/project/Fall
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 26.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/project/Fall/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   30.0.14.7196
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001308 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 25.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.018 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.113452 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.456 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.2 MB.
+System memory in use after: 65.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1836.
+Total: 9.432700 ms (FindLiveObjects: 0.293900 ms CreateObjectMapping: 0.070400 ms MarkObjects: 8.178200 ms  DeleteObjects: 0.887700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/TouchInput.cs
+  artifactKey: Guid(7ef73750838d98e46811e23f389f8400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TouchInput.cs using Guid(7ef73750838d98e46811e23f389f8400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9c72683f0267bbcc56c10e346929be') in 0.025249 seconds
+  Import took 0.028449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/BallHopping.cs
+  artifactKey: Guid(57f288affe0047e40ba626023929f443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BallHopping.cs using Guid(57f288affe0047e40ba626023929f443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57f5e0c9d92f59839fbcc2b75365166') in 0.008955 seconds
+  Import took 0.010632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/CameraFollow.cs
+  artifactKey: Guid(c1a0df556c76a8a40a52b3099e06b83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CameraFollow.cs using Guid(c1a0df556c76a8a40a52b3099e06b83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fcf7de8ce9ac546ba0aa7a9d98e7c8') in 0.001079 seconds
+  Import took 0.002867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/MoveBody.cs
+  artifactKey: Guid(2a9a664ed7ade854bad5755a2128bc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoveBody.cs using Guid(2a9a664ed7ade854bad5755a2128bc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ccc40241d589e9b0b12763c98d3920') in 0.001308 seconds
+  Import took 0.002880 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
